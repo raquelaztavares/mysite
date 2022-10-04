@@ -98,7 +98,7 @@ function selectTile() {
 }
 
 function hideError() {
-  document.querySelector(".error").style.visibility = "hidden"
+  document.querySelector(".error").style.display = "none"
 }
 
 document.querySelectorAll("form > input").forEach(input => {
@@ -110,7 +110,7 @@ document.querySelector("form").addEventListener("submit", evt => {
   hideError()
   const [first, last] = evt.target
   if (!first.value || !last.value) {
-    document.querySelector(".error").style.visibility = "visible"
+    document.querySelector(".error").style.display = "block"
     return
   }
   alert(`Thank you ${first.value} ${last.value} for submitting the form!`)

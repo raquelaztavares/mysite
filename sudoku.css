@@ -181,9 +181,9 @@ input[type="submit"] {
 }
 
 .error {
-  visibility: hidden;
+  display: none;
   margin-top: 10px;
-  width: 150px;
+  width: 130px;
   padding: 10px;
   color: red;
   background: lightred;
