@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Raquel Tavares</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="#about">About Me</a>
+    <a href="cv.html">My CV</a>
+    <a href="#getintouch">Contacts</a>
+    <a href="sudoku.html">Sudoku Project</a>
+  </div>
+  <div class="top-container">
+    <h1>Raquel Tavares</h1>
+    <br>
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/raquel-modified.png" alt="raquel-img">
+      <h2 id="about">Hello.</h2>
+      <p class="intro">I'm currently a Project & Key Account Manager at Worten's Marketplace.
+        I live in Lisboa, I love summer and can't live without coffee.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="developer-image" src="images/developer.png" alt="developer-img">
+        <h3>Knowledge Seeker</h3>
+        <p>Having originally studied a masters degree to become a kindergarten teacher, my desire to learn new things caused me to branch out into the world of tech. This began with a postgraduate degree in digital marketing, which later led me down
+          the path of learning web development.</p>
+      </div>
+      <div class="skill-row">
+        <img class="ecommerce-image" src="images/ecommerce.png" alt="ecommerce-img">
+        <h3>E-commerce</h3>
+        <p> I have 8 years of experience in e-commerce. I started working in the leading company in Portugal in online experiences, passed through a start-up and now I work in the leading Marketplace in Portugal.</p>
+      </div>
+      <br>
+      <a class="mycv" href="cv.html">If you want to check my full CV click here.</a>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2 id="getintouch"> Get In Touch</h2>
+      <h3>Do you want to know more about me?</h3>
+      <p class="contact-message">Feel free to contact me.</p>
+      <a class="btn" href="mailto:raquel.az.tavares@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/raquel-tavares-7028a3107/">LinkedIn</a>
+    <a class="footer-link" href="https://www.instagram.com/raquelaztavares/">Instagram</a>
+    <a class="footer-link" href="cv.html">Full CV</a>
+    <p class="copyright">© 2022 Raquel Tavares.</p>
+  </div>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>

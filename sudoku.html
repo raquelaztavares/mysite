@@ -1,0 +1,79 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no">
+  <title>Sudoku</title>
+
+  <link rel="stylesheet" href="sudoku.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="index.html#about">About Me</a>
+    <a href="cv.html">My CV</a>
+    <a href="index.html#getintouch">Contacts</a>
+    <a class="active" href="sudoku.html">Sudoku Project</a>
+  </div>
+  </div>
+  <div class="top-container">
+    <h1>Raquel Tavares</h1>
+    <br>
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/raquel-modified.png" alt="raquel-img">
+      <h2 id="about">Project.</h2>
+      <p class="intro">I love playing sudoku in my spare time, so I decided to try my hand at building one.</p>
+    </div>
+    <h1>Sudoku</h1>
+    <hr>
+    <h2 id="errors">0</h2>
+
+    <!-- 9x9 board -->
+    <div id="board"></div>
+    <br>
+    <div id="digits">
+    </div>
+    <hr>
+    <div>
+      <h2>Share Knowledge</h2>
+      <h3>Do you have any ideas to improve my sudoku?</h3>
+      <form>
+        <label>First name</label>
+        <input type="text">
+        <label>Last name</label>
+        <input type="text">
+        <label>Idea</label>
+        <input type="text">
+        <input type="submit" value="Submit">
+      </form>
+      <div class="error">
+        Please fill out all the values.
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2 id="getintouch"> Get In Touch</h2>
+      <h3>Do you want to know more about me?</h3>
+      <p class="contact-message">Feel free to contact me.</p>
+      <a class="btn" href="mailto:raquel.az.tavares@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/raquel-tavares-7028a3107/">LinkedIn</a>
+    <a class="footer-link" href="https://www.instagram.com/raquelaztavares/">Instagram</a>
+    <a class="footer-link" href="cv.html">Full CV</a>
+    <p class="copyright">© 2022 Raquel Tavares.</p>
+  </div>
+
+  <script src="sudoku.js"></script>
+</body>
+</html>
